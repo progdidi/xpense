@@ -1,0 +1,29 @@
+.download {
+    background-image: url('../../images/download.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 120px;
+    color: #fff;
+    &__title {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    &__text {
+        text-align: center;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 100%;
+        margin-bottom: 60px;
+    }
+    &__link {
+        width: 213px;
+        display: block;
+        margin: 0 auto;
+        background-color: var(--background);
+        color: var(--main-color);
+    }
+}
