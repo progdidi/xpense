@@ -1,26 +1,49 @@
 .plan {
+    background-color: #FFFAF8;
+    &__title {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 100%;
+        text-align: center;
+        color: var(--dark);
+        margin-bottom: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: var(--background);
+    }
 }
-.container {
-}
-.section-title {
-}
-.plan__title {
-}
-.plan__items {
-}
+
 .plan-item {
-}
-.plan-item__img {
-}
-.plan-item__title {
-}
-.plan-item__list {
-}
-.plan-item__list-item {
-}
-.plan-item__price {
-}
-.plan-item__link {
-}
-.oramge-btn {
+    width: 350px;
+    padding: 41px 40px 60px 40px;
+    &__img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 24px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        color: var(--dark);
+        margin-bottom: 24px;
+    }
+    &__list {
+    }
+    &__list-item {
+        padding-left: 32px;
+        position: relative;
+        font-size: 18px;
+        color: var(--dark);
+        margin-bottom: 8px;
+        &::before {
+
+        }
+    }
+    &__price {
+    }
+    &__link {
+    }
 }
